@@ -9,7 +9,7 @@ quick-test:
 	$(TEST) bats tests
 
 test:
-	$(TEST) docker build -t mbodenhamer/docker-test:bats .
+	docker build -t mbodenhamer/docker-test:bats .
 	$(TEST):bats bats tests
 
 .PHONY: quick-test test
