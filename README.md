@@ -1,4 +1,4 @@
-![Build Status](https://travis-ci.org/mbodenhamer/docker-docker-test.svg?branch=master)(https://travis-ci.org/mbodenhamer/docker-docker-test)
+[![Build Status](https://travis-ci.org/mbodenhamer/docker-docker-test.svg?branch=master)](https://travis-ci.org/mbodenhamer/docker-docker-test)
 
 Docker image for testing Docker images.
 
