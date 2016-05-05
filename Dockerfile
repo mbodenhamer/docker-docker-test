@@ -1,11 +1,12 @@
-FROM docker:1.9.1
+FROM docker:1.7.1
 MAINTAINER Matt Bodenhamer <mbodenhamer@mbodenhamer.com>
 
 # Install dependencies
-RUN apk add --no-cache \
+RUN apk update && apk add \
     bash \
     git \
-    make
+    make \
+    && rm -rf /var/cache/apk/*
 
 # Install bats
 RUN git clone https://github.com/sstephenson/bats.git \
