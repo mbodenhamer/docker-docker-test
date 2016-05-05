@@ -2,7 +2,7 @@
 
 Docker image for testing Docker images.
 
-Includes the `docker` client, has [bats](https://github.com/sstephenson/bats) installed, and runs `make test` by default. Invoke like so:
+Based on the official Docker image, has [bats](https://github.com/sstephenson/bats) installed, and runs `make test` by default. Invoke like so:
 
     $ docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock \
 	      -v $(pwd):/app mbodenhamer/docker-test
