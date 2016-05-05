@@ -1,7 +1,8 @@
 all: test
 
 TEST = docker run --rm -it -v $(CURDIR):/app \
-	-v /var/run/docker.sock:/var/run/docker.sock mbodenhamer/docker-test
+	-v /var/run/docker.sock:/var/run/docker.sock \
+	mbodenhamer/docker-test:latest
 
 #-------------------------------------------------------------------------------
 
@@ -11,15 +12,12 @@ build:
 .PHONY: build
 #-------------------------------------------------------------------------------
 
-test-build:
-	docker build -t mbodenhamer/docker-test:bats .
-
 quick-test:
-	$(TEST):bats bats tests
+	$(TEST) bats tests
 
 test:
-	$(MAKE) test-build
+	$(MAKE) build
 	$(MAKE) quick-test
 
-.PHONY: test-build quick-test test
+.PHONY: quick-test test
 #-------------------------------------------------------------------------------
