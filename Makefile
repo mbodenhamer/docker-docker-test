@@ -5,12 +5,21 @@ TEST = docker run --rm -it -v $(CURDIR):/app \
 
 #-------------------------------------------------------------------------------
 
-quick-test:
-	$(TEST) bats tests
+build:
+	docker build -t mbodenhamer/docker-test:latest .
 
-test:
+.PHONY: build
+#-------------------------------------------------------------------------------
+
+test-build:
 	docker build -t mbodenhamer/docker-test:bats .
+
+quick-test:
 	$(TEST):bats bats tests
 
-.PHONY: quick-test test
+test:
+	$(MAKE) test-build
+	$(MAKE) quick-test
+
+.PHONY: test-build quick-test test
 #-------------------------------------------------------------------------------
