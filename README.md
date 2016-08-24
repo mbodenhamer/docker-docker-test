@@ -14,5 +14,6 @@ The `latest` tag is an image with Docker version `1.7.1` installed. This is the 
 
 Other `docker` versions are available via the following tags:
 
-* [`1.9.1`](https://github.com/mbodenhamer/docker-docker-test/tree/1.9.1)
-
+* [`1.12.1`](https://github.com/mbodenhamer/docker-docker-test/tree/1.12.1) ![](https://travis-ci.org/mbodenhamer/docker-docker-test.svg?branch=1.12.1)
+* [`1.9.1`](https://github.com/mbodenhamer/docker-docker-test/tree/1.9.1) ![](https://travis-ci.org/mbodenhamer/docker-docker-test.svg?branch=1.9.1)
+* [`1.7.1`](https://github.com/mbodenhamer/docker-docker-test/tree/1.7.1) ![](https://travis-ci.org/mbodenhamer/docker-docker-test.svg?branch=1.7.1)
