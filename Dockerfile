@@ -1,4 +1,4 @@
-FROM docker:1.9.1
+FROM docker:1.12.1
 MAINTAINER Matt Bodenhamer <mbodenhamer@mbodenhamer.com>
 
 # Install dependencies
