@@ -1,7 +1,7 @@
 #!/usr/bin/env bats
 load test_helpers
 
-@test "[$TEST_FILE] Check Bats version" {
+@test "[$TEST_FILE] Check Bats installed" {
     run bats
-    [[ ${lines[0]} == "Bats 0.4.0" ]]
+    [[ ${lines[0]} =~ "Bats" ]]
 }
