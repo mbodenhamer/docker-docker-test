@@ -10,9 +10,7 @@ Based on the official Docker image, has [bats](https://github.com/sstephenson/ba
 Tags
 ----
 
-The `latest` tag is an image with Docker version `1.7.1` installed. This is the latest version of which an official `docker` image exists which can be currently (at the time of writing) run on [Travis-CI](https://travis-ci.org/) without needing any pre-install configuration.
-
-Other `docker` versions are available via the following tags:
+The `latest` tag is an image with Docker version `1.12.1` installed. Specific `docker` versions are available via the following tags:
 
 * [`1.12.1`](https://github.com/mbodenhamer/docker-docker-test/tree/1.12.1) ![](https://travis-ci.org/mbodenhamer/docker-docker-test.svg?branch=1.12.1)
 * [`1.9.1`](https://github.com/mbodenhamer/docker-docker-test/tree/1.9.1) ![](https://travis-ci.org/mbodenhamer/docker-docker-test.svg?branch=1.9.1)
