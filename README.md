@@ -10,8 +10,10 @@ Based on the official Docker image, has [bats](https://github.com/sstephenson/ba
 Tags
 ----
 
-The `latest` tag is an image with Docker version `1.12.1` installed. Specific `docker` versions are available via the following tags:
+The `latest` tag is an image with Docker version `17.07.0` installed. Specific `docker` versions are available via the following tags:
 
+* [`17.07.0`](https://github.com/mbodenhamer/docker-docker-test/tree/17.07.0) ![](https://travis-ci.org/mbodenhamer/docker-docker-test.svg?branch=17.07.0)
+* [`17.05.0`](https://github.com/mbodenhamer/docker-docker-test/tree/17.05.0) ![](https://travis-ci.org/mbodenhamer/docker-docker-test.svg?branch=17.05.0)
 * [`1.12.1`](https://github.com/mbodenhamer/docker-docker-test/tree/1.12.1) ![](https://travis-ci.org/mbodenhamer/docker-docker-test.svg?branch=1.12.1)
 * [`1.9.1`](https://github.com/mbodenhamer/docker-docker-test/tree/1.9.1) ![](https://travis-ci.org/mbodenhamer/docker-docker-test.svg?branch=1.9.1)
 * [`1.7.1`](https://github.com/mbodenhamer/docker-docker-test/tree/1.7.1) ![](https://travis-ci.org/mbodenhamer/docker-docker-test.svg?branch=1.7.1)
