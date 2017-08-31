@@ -1,4 +1,4 @@
-FROM docker:17.07.0
+FROM docker:17.05
 MAINTAINER Matt Bodenhamer <mbodenhamer@mbodenhamer.com>
 
 # Install dependencies
