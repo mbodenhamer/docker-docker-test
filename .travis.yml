@@ -4,7 +4,8 @@ services:
 
 env:
     global:
-        - DOCKER_VERSION=1.12.1-0~trusty
+        - DOCKER_VERSION=17.07.1-0~trusty
+        # https://apt.dockerproject.org/repo/dists/ubuntu-trusty/main/filelist
 
 before_install:
   - sudo apt-get -o Dpkg::Options::="--force-confnew" install -y docker-engine=${DOCKER_VERSION}
