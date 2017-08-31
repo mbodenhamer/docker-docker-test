@@ -1,6 +1,6 @@
 all: test
 
-VERSION = 1.12.1
+VERSION = 17.07.0
 TEST = docker run --rm -it -v $(CURDIR):/app \
 	-v /var/run/docker.sock:/var/run/docker.sock \
 	mbodenhamer/docker-test:$(VERSION)

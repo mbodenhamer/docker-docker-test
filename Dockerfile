@@ -1,4 +1,4 @@
-FROM docker:1.12.1
+FROM docker:17.07.0
 MAINTAINER Matt Bodenhamer <mbodenhamer@mbodenhamer.com>
 
 # Install dependencies

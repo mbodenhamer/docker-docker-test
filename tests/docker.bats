@@ -4,7 +4,7 @@ load test_helpers
 @test "[$TEST_FILE] Check Docker client version" {
     run docker version
     [[ ${lines[0]} == "Client:" ]]
-    [[ ${lines[1]} =~ "1.12.1" ]]
+    [[ ${lines[1]} =~ "17.07.0" ]]
 }
 
 @test "[$TEST_FILE] Check if Docker daemon is accessible" {
